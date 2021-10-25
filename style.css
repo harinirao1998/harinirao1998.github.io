@@ -1,0 +1,400 @@
+body
+{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    background: #f8d3cb;  /* fallback for old browsers */
+    
+   /*background-color: #e8c3b9;*/
+    
+}
+.fa-linkedin-in:hover{
+    cursor: pointer;
+}
+.fa-envelope:hover{
+    cursor: pointer;
+}
+.fa-github:hover{
+    cursor: pointer;   
+}
+.fa-envelope{
+    color:white;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+/* navigation bar */
+.navbar {
+    padding:1% 0%;
+    background-color:#3e4149;
+    } 
+
+.nav-item
+    {
+        padding:3% 10%;
+        color:white;
+        font-family:"Oxygen", sans-serif;
+        font-size:14px;
+     }
+
+.nav-item:hover{
+    color:#08E8DE;
+    padding:3% 10%;
+    text-decoration:underline  #08E8DE;
+}
+
+.navbar-brand
+    {
+        padding:1% 1%;
+        /*font-family:"Montserrat-Light";*/
+        font-size:25px;
+        color:white;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 300;
+        line-height: 1.7;
+    }
+
+.navbar-brand:hover{
+    color:white;
+}
+
+.container-fluid{
+    background-color:#3e4149;
+}
+.navbar-toggler{padding:.25rem .75rem;
+    font-size:1.25rem;
+    line-height:1;
+    background-color:#3e4149;
+    border:1px solid #3e4149;
+    border-radius:.25rem}   
+.navbar-toggler:focus,.navbar-toggler:hover{text-decoration:white}
+
+.navbar-toggler-icon{
+        background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}
+
+
+/*introduction section */
+.intro{
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(217deg, rgba(252,171,159,.8), rgba(0,255,0,0)  70.71%),
+    linear-gradient(127deg, rgba(254,127,156,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(252,163,183,.8), rgba(0,0,255,0) 70.71%);
+    text-align:center;
+    padding: 6% 5%;
+    
+}
+
+.intro-descrip{
+    font-size:25px;
+    line-height:1.7em;
+    letter-spacing:0em;
+    padding-top:8%;
+    padding-bottom:2%;
+}
+
+/*intro-buttons*/
+.btn-outline-secondary{
+    color:white;    
+    background-color:#3e4149;
+    background-image:none;
+    border-color:#3e4149;   
+}
+
+
+
+.btn-outline-secondary:hover{
+    color:white;
+    background-color:#5f0a87 ;
+    border:2px solid #08E8DE;
+}
+
+.aboutmebtn{
+    padding-bottom:2px ;
+}
+
+.myprofilebtn{
+    padding-top:2px;
+}
+
+/*about-me section styling*/
+
+.about-me{
+    text-align:center;
+    background-color:#37505c;
+    color:white;
+}
+
+.about-me-heading{
+    padding-top:3%;
+    padding-bottom:1%;
+    line-height:1.5em;
+    font-weight:500;
+    text-align:center;
+    font-family:"Oxygen", sans-serif;
+    font-size:20px;
+}
+
+.btn-outline-light:hover{
+    color:#3e4149;
+    background-color:#08E8DE;
+    border-color:#3e4149;
+    font-weight:800;
+}
+
+ul{
+    text-align:left;
+}
+ul li::marker{
+    color:white;
+    font-size:0.75em;  
+}   
+.aboutme_intro{
+  
+  text-align:left;  
+  font-size:18px;
+  text-rendering: optimizeLegibility;
+  line-height:1.7em;
+  padding:1% 5%;
+  
+}
+.photo-box{
+    padding-bottom:1%;
+    
+}
+
+/* Footer Section*/
+.footer{
+    padding-top:2%;
+    background-color:#113537;
+    color:white;
+    text-align: center;
+    
+}
+
+.footer-icons{
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align:center;
+}
+
+
+.icon{
+    padding-right:15px;
+}
+
+.icon:hover{
+    color:#08E8DE;
+}
+        
+
+
+
+/*writing*/
+#writing{
+    
+    text-align:center;
+}
+
+#writing-heading{
+    font-family:"Oxygen", sans-serif;
+    font-size:20px; 
+    padding:3%;
+    text-align:center;
+}
+
+#writing-heading:hover{
+        color:#3e4149;
+        text-decoration:underline  #3e4149;
+    
+}
+
+#wordpresslink{
+    color:#08E8DE;
+    background-color:#3e4149 ;
+}
+#wordpresslink:hover{
+    color:#08E8DE;
+}
+
+.examples-writing{
+    padding-top:3%;
+    padding-bottom:2%;
+}
+.cicon{color:black;}
+.cicon:hover{
+    color:#5f0a87; 
+    outline-color:#08E8DE ;
+}
+
+/*Projects*/
+.projects-heading{
+    padding-top:2%;
+    font-family:"Oxygen", sans-serif;
+    font-size:30px;
+    font-weight:500;
+    text-align:center;
+    padding-bottom:2%; 
+
+}
+
+.projects{
+font-synthesis: none;
+-webkit-font-smoothing: antialiased;
+direction: ltr;
+text-align: left;
+margin:10px 10px;
+}
+
+.projects-heading:hover{
+        color:#3e4149;
+        text-decoration:underline  #3e4149;
+        font-family:"Oxygen", sans-serif;
+        font-weight:500;
+      
+}
+
+#project1, #project2, #project3, #project4, #project5{
+    font-size:15px;
+   
+    padding:3% 4%;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.011em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+    font-style: normal;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    flex: 1;
+    flex-wrap: wrap;
+    height:100%;
+    width: 100%;
+    margin: 10px 10px;
+    background-color: #f9c1b5;
+}
+
+=
+/*contact-me*/
+
+.contact-me{
+   
+    font-family:"Oxygen", sans-serif;
+    font-size:50px; 
+    padding:50% 50%;
+    margin:50% 50%;
+    text-align:center;
+   
+}
+
+.contactme-icons{
+    padding-top:10%;
+    padding-bottom:10%;
+    text-align:center;
+}
+
+.cicon{
+    padding-right:30px;
+}
+
+.submitbtn{
+    padding-top:2%;
+}
+
+#contact-deets{
+    font-size:30px; 
+}
+
+/*name-styling - home page*/
+.typewriter {
+    margin: 5vh auto 0;
+  }
+  
+  .name{
+    border-right: 2px solid black;
+    font-size: 50px;
+    white-space: nowrap;
+
+    overflow: hidden;
+    animation: typingAnimation 8s steps(22, end) infinite,  /* The 26 here should equal                                              * the amount of characters */
+               blinkAnimation 1s step-end infinite;
+    padding:5% 5%;
+    color:#5f0a87;
+  }
+  
+  @keyframes typingAnimation {
+    0% {
+      width: 0;
+    }
+    20%, 90% {
+      width: 60%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes blinkAnimation {
+    from, to {
+      border-color:transparent;
+    }
+    80% {
+      border-color:#5f0a87;
+    }
+  }
+
+/*profile styling */
+.profile-h3{
+    text-align: center;
+    margin:0 0;
+    font-family: "SofiaProLight", sans-serif;
+    background-color:#eff6f7
+
+}
+
+.work-experience{
+    background-color:#eff6f7;
+    font-family: "SofiaProRegular", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px;
+}
+
+.education{
+    background-color:#e8fff8;
+    font-family: "SofiaProRegular", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px;
+}
+.skills{
+    background-color:#fee9e9;
+    font-family: "SofiaProRegular", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px;
+
+}
+
+
+#resumebtn{
+    padding-bottom:1%;
+}
